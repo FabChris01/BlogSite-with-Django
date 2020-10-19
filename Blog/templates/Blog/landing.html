@@ -1,0 +1,22 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syncus.</title>
+    <link rel="stylesheet" href="{% static 'Blog/landing.css' %}">
+    <link rel="icon" href="{% static 'Blog/images/favicons.ico' %}">
+
+</head>
+<body>
+    <div class="brand">Syncus.</div>
+    <div class="greet">Welcome.</div>
+    <div class="tag-line">Unleash <br>Your Power.</div>
+    <div class="btn sign-in"><a href="{%url 'signin'%}">Sign in</a></div>
+    <div class="btn sign-up"><a href="{%url 'signup'%}">Sign up</a></div>
+    <div class="green-img"></div>
+    <div class="person-typing"></div>
+</body>
+</html>

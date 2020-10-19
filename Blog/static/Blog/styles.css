@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    transform: scale(0.9);
+    transform-origin: center center;
+    background-color: #ececec;
+
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.left-container{
+    width: 50%;
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.signin-content{
+    margin-top: 40px;
+    width: 350px;
+    /* background-color: aqua; */
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-40%);
+}
+.signin-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+    color: #4e4e4e;
+}
+.text-field {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 30px; */
+}
+
+.text-field{
+    padding-bottom: 30px;
+}
+
+.text-field label{
+    font-size: 13px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #4e4e4e;
+}
+.text-field input{
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    height: 35px;
+    border:  none;
+    outline: none;
+    background: #F6F6F8;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0,0.1), -3px -3px 5px rgba(0, 0, 0,0.01);
+}
+
+.bottom-btn{
+    /* margin-top: 30px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.bottom-btn a{
+    /* padding: 30px 0; */
+    margin-bottom: 30px;
+    color: #4CAF50;
+    font-size: 0.85em;
+}
+
+.bottom-btn a:hover{
+    color: #80ca82;
+}
+
+
+.bottom-btn input{
+    background-color: white;
+    border: 2px solid #4e4e4e;
+    color: #4e4e4e;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.bottom-btn input:hover{
+    background-color: #4e4e4e;
+    border: 2px solid white;
+    color: white;
+}
+
+.t-c{
+    margin-top: -15px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.t-c span{
+    margin:0 5px;
+}
+.t-c a{
+    color: #4CAF50;
+}
+.t-c a:hover{
+    color: #80ca82;
+}
+
+.signup-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-btn input{
+    background-color: white;
+    border: 2px solid #4e4e4e;
+    color: #4e4e4e;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8rem;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.signup-btn input:hover{
+    background-color: #4e4e4e;
+    border: 2px solid white;
+    color: white;
+}
+
+
+
+.signup-link{
+    font-size: 0.8rem;
+    position: absolute;
+    top: 50px;
+    right: 75px;
+
+}
+.signup-link a{
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.signup-link a:hover{
+    color: #80ca82;
+}
+
+.other-links{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translate(-50%, -50%);
+}
+
+.divider{
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider p{
+    padding: 0 20px;
+    color: #E5E5E5;
+}
+.divider div{
+    border: 1px solid #E5E5E5;
+    width: 200px;
+    background-color: #E5E5E5;
+}
+
+
+.signin-type{
+ /* background-color: aqua; */
+ margin-top: 20px;
+ width: 400px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 0.7rem;
+ font-weight: bold;
+}
+
+.signin-google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #E5E5E5;
+    padding: 10px 20px;
+}
+
+.signin-google:hover{
+    background-color: #F6F6F8;
+    cursor: pointer;
+}
+
+.signin-google img{
+    max-width: 23px;
+    height: auto;
+    padding-right: 5px;
+}
+.signin-google button{
+    outline: none;
+    text-decoration: none;
+    border: none;
+    background: none;
+    color: #859B77;
+    cursor: pointer;
+}
+
+.signin-linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #E5E5E5;
+    padding: 10px 20px;
+}
+.signin-linkedin:hover{
+    background-color: #F6F6F8;
+    cursor: pointer;
+}
+
+.signin-linkedin img{
+    max-width: 25px;
+    height: auto;
+    padding-right: 5px;
+}
+.signin-linkedin button{
+    outline: none;
+    text-decoration: none;
+    border: none;
+    background: none;
+    color: #859B77;
+    cursor: pointer;
+}
+
+.signin-github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #E5E5E5;
+    padding: 10px 20px;
+}
+.signin-github:hover{
+    background-color: #F6F6F8;
+    cursor: pointer;
+}
+
+.signin-github img{
+    max-width: 25px;
+    height: auto;
+    padding-right: 5px;
+}
+.signin-github button{
+    outline: none;
+    text-decoration: none;
+    border: none;
+    background: none;
+    color: #859B77;
+    cursor: pointer;
+}
+
+.right-container-si{
+    width: 50%;
+    height: 100vh;
+    background-color: #F6F6F8;
+    font-weight: 600;
+}
+
+.right-container-si{
+    background-image: url("images/plant1.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.right-container-si h1{
+    color: #4CAF50;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-weight: 400;
+}
+
+.right-container-si h2{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    color: #4e4e4e;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.right-container-si span{
+    color: #4CAF50;
+    font-size: 2rem;
+    border-bottom: 2px solid #4CAF50;
+}
+
+.right-container-su{
+    width: 50%;
+    height: 100vh;
+    background-color: #F6F6F8;
+    font-weight: 600;
+}
+
+.right-container-su{
+    background-image: url("images/writer.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.right-container-su h1{
+    color: #4CAF50;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-weight: 400;
+}
+
+.right-container-su h2{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    color: #F6F6F8;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.right-container-su span{
+    color: #4CAF50;
+    font-size: 2rem;
+    border-bottom: 2px solid #4CAF50;
+}

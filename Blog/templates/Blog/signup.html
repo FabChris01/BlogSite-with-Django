@@ -1,0 +1,80 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'Blog/styles.css' %}">
+    <link rel="icon" href="{% static 'Blog/images/favicons.ico' %}">
+    <title>Syncus.</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="left-container">
+            <div class="signin-content">
+                <h2>Sign up.</h2>
+                <form method="POST">
+                    <div class="text-field">
+                        <label>Username</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="text-field">
+                        <label>Email</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="text-field">
+                        <label>Password</label>
+                        <input type="password" required>
+                    </div>
+                    <div class="t-c">
+                        <input class="terms-btn" type="checkbox">
+                        <span>I agree to the</span>
+                        <a href="{%url 'TAC'%}">T&C.</a>
+                    </div>
+                    <div class="signup-btn">
+                        <input class="signin-btn" type="submit" value="Sign up">
+                    </div>
+                    <!-- <div class="bottom-btn-signup"></div> -->
+                </form>
+            </div>
+            <div class="other-links">
+                    <div class="divider">
+                        <div></div>
+                        <p>Or</p>
+                        <div></div>
+                    </div>
+                    <div class="signin-type">
+                        <div class="signin-google">
+                            <img src="{% static "Blog/images/google.png" %}" alt="Google">
+                            <button>Google</button>
+                        </div>
+                        <div class="signin-linkedin">
+                            <img src="{% static "Blog/images/linkedin.png" %}" alt="Linkedin">
+                            <button>Linkedin</button>
+                        </div>
+                        <div class="signin-github">
+                            <img src="{% static "Blog/images/github.png" %}" alt="Github">
+                            <button>Github</button>
+                        </div>
+                    </div>
+            </div>
+            <div class="signup-link">
+                Already a user? <a href="{%url 'signin'%}">Sign in</a>
+            </div>
+
+
+
+
+        </div>
+        <div class="right-container-su">
+            <h1>Syncus.</h1>
+            <h2>Create and Share<br><span>Your</span><br>Knowledge.</h2>
+
+        </div>
+    </div>
+</body>
+
+</html>

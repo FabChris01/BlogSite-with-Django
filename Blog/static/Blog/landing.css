@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: #f6f6f8;
+}
+
+.brand{
+    color: #4C6F22;
+    /* font-weight: bold; */
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 30px;
+    left: 75px;
+}
+
+.greet {
+    color: #4CAF50;
+    font-family: 'Chilanka', sans-serif;
+    font-size: 100px;
+    position: absolute;
+    top: 175px;
+    left: 75px;
+}
+
+.tag-line {
+    color: #4E4E4E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    position: absolute;
+    top: 300px;
+    left: 75px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.btn {
+    width: 100px;
+    height: 40px;
+    border: 2px solid #4CAF50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.sign-in {
+    position: absolute;
+    top: 480px;
+    left: 75px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sign-in a {
+    color: white;
+}
+
+.sign-in:hover{
+    background-color: #42a145;
+}
+
+.sign-in a:hover{
+    color: #f6f6f8;
+}
+
+.sign-up {
+    position: absolute;
+    top: 480px;
+    left: 200px;
+}
+
+.sign-up a {
+    color: #4E4E4E;
+}
+
+.sign-up:hover{
+    border: 2px solid #4C6F22;
+}
+
+.green-img {
+    width: 650px;
+    height: 600px;
+    background-image: url('images/green_blob.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.person-typing {
+    width: 650px;
+    height: 400px;
+    background-image: url('images/person_typing.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 75px;
+    right: 0;
+}
+
+
+

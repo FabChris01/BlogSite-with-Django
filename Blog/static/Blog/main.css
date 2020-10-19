@@ -1,0 +1,169 @@
+    @import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #e4e4e4;
+    }
+
+
+    /* Nav Bar Styling starts From here. */
+    .nav-bar{
+        background-color: #4CAF50;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+        font-family: 'Open Sans', sans-serif;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        height: 10vh;
+
+    }
+
+    .logo {
+        font-size: 2rem;
+        color: white;    
+    }
+
+    nav {
+        width: 400px;
+    }
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    ul li{
+        list-style: none;
+    }
+    li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    li a:hover{
+        color: #e4e4e4;
+        text-decoration: underline;
+    }
+    /* Till Here it is the nav bar styling */
+
+    /* Mid text styling starts */
+
+    .mid-text{
+        color: #4CAF50;
+        font-size: 1.8rem;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+
+    /* Search bar styling starts */
+
+    .search-bar{
+        width: 500px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 50px;
+        box-shadow: 5px 5px 10px rgba(146, 146, 146, 0.23);
+        border-radius: 20px;
+    }
+    .search-bar input{
+        width: 500px;
+        height: 50px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+        color: #4e4e4e;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+    }
+
+    /* Card Styling starts */
+    .card {
+        width: 350px;
+        height: 350px;
+        background-color: white;
+        position: absolute;
+        left: 5%;
+        top: 40%;
+        transition: transform .2s;
+        /*transform: translate(-50%, -50%);*/
+        border-radius: 20px;
+        box-shadow: 5px 5px 35px rgba(146, 146, 146, 0.5);  
+    }
+
+    .card:hover{
+        transform: scale(1.1);
+    }
+
+    .img-cont{
+        width: 350px;
+        height: 180px;
+        border-radius: 20px 20px 0 0;
+        background-image: url('images/work.jpg');
+        background-size: cover;
+        background-color: #5c5c5c49;
+        background-blend-mode: multiply;
+        box-shadow: 0 5px 5px rgba(146, 146, 146, 0.30);
+    }
+
+    /* date style */
+    .date{
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8rem;
+        padding: 10px 15px;
+        color: #7E7E7E;
+    }
+    .title {
+        padding-left:15px;
+        font-size: 1.3rem;
+    }
+    .title a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .title a:hover{
+        text-decoration: underline;
+    }
+
+    .user{
+        padding:15px 0 0 15px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+        background-color: aqua;
+        border-radius: 15px;
+        margin: 0 15px 0 0;
+        cursor: pointer;
+    }
+    .user p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+    }
+    .user p a{
+        text-decoration: none;
+        color: black;
+    }
+    .user p a:hover{
+        text-decoration: underline;
+    }
